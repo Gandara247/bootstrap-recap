@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <title>Formatação de Colunas</title>
+    <style>
+        .row {
+            height: 200px;
+            background-color: aliceblue;
+        }
+
+        .col-3 {
+            background-color: aqua;
+            padding: 20px;
+            border: solid 1px black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <h3 class="text-center text-bg-info">Alinhamento 01</h3>
+
+        <div class="row align-items-center justify-content-center">
+            <div class="col-3">Coluna 1</div>
+            <div class="col-3">Coluna 2</div>
+            <div class="col-3">Coluna 3</div>
+        </div><br><br>
+    </div>
+    <div class="container">
+        <h3 class="text-center text-bg-info">Alinhamento 02</h3>
+
+        <div class="row align-items-start justify-content-center">
+            <div class="col-3">Coluna 1</div>
+            <div class="col-3">Coluna 2</div>
+            <div class="col-3">Coluna 3</div>
+        </div><br><br>
+    </div>
+
+    <div class="container">
+        <h3 class="text-center text-bg-info">Alinhamento 03</h3>
+
+        <div class="row align-items-center justify-content-center">
+            <div class="col-3 align-self-start">Coluna 1</div>
+            <div class="col-3 align-self-center">Coluna 2</div>
+            <div class="col-3 align-self-end">Coluna 3</div>
+        </div><br><br>
+    </div>
+    <div class="container">
+        <h3 class="text-center text-bg-info">Alinhamento 04</h3>
+
+        <div class="row align-items-center justify-content-between">
+            <div class="col-3">Coluna 1</div>
+            <div class="col-3">Coluna 2</div>
+            <div class="col-3">Coluna 3</div>
+        </div><br><br>
+    </div>
+    <div class="container">
+        <h3 class="text-center text-bg-info">Alinhamento 05</h3>
+
+        <div class="row align-items-center justify-content-around">
+            <div class="col-3 align-self-start">Coluna 6</div>
+            <div class="w100"></div>
+            <div class="col-3 align-self-center">Coluna 2</div>
+            <div class="col-3 align-self-end">Coluna 3</div>
+        </div><br><br>
+    </div>
+    <div class="container">
+        <h3 class="text-center text-bg-info justify-content-center">Alinhamento 07</h3>
+
+        <div class="row align-items-center justify-content-center">
+            <div class="col-3 order-3">Coluna 1</div>
+            <div class="col-3 order-1">Coluna 2</div>
+            <div class="col-3 order-2">Coluna 3</div>
+        </div><br><br>
+    </div>
+    <div class="container">
+        <h3 class="text-center text-bg-info justify-content-center">Alinhamento 08</h3>
+
+        <div class="row">
+            <div class="col-3 offset-1">Coluna 1</div>
+            <div class="col-3 offset-1">Coluna 2</div>
+            <div class="col-3 offset-1">Coluna 3</div>
+        </div><br><br>
+    </div>
+    <div class="container">
+        <h3 class="text-center text-bg-info justify-content-center">Alinhamento 09</h3>
+
+        <div class="row align-items-center justify-content-center">
+            <div class="col-3 ms-auto">Coluna 1</div>
+            <div class="col-3 ms-auto">Coluna 2</div>
+            <div class="col-3 ms-auto">Coluna 3</div>
+        </div><br><br>
+    </div>
+    <div class="container">
+        <h3 class="text-center text-bg-info justify-content-center">Alinhamento 10</h3>
+
+        <div class="row">
+            <div class="col-3 mx-auto">Coluna 1</div>
+        </div><br><br>
+    </div>
+    <div class="container">
+        <h3 class="text-center text-bg-info justify-content-center">Alinhamento 11</h3>
+        <div class="col-3">Coluna 1</div>
+        <div class="col-3">Coluna 2</div>
+        <br><br>
+    </div>
+</body>
+
+</html>
